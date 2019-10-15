@@ -37,7 +37,7 @@ public class Graph {
         //crear una ventana de brain
         Brain brain = new Brain();
         brain.setLocationRelativeTo(null);
-        brain.setSize(1045, 660);
+        brain.setSize(1045, 680);
         brain.setResizable(false);
         brain.setVisible(true);
         JOptionPane.showMessageDialog(brain, "Bienvenido a NEUROGRAPH");
