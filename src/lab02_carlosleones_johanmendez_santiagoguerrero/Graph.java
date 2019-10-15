@@ -6,6 +6,7 @@
 package lab02_carlosleones_johanmendez_santiagoguerrero;
 
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -39,6 +40,7 @@ public class Graph {
         brain.setSize(1045, 660);
         brain.setResizable(false);
         brain.setVisible(true);
+        JOptionPane.showMessageDialog(brain, "Bienvenido a NEUROGRAPH");
     }
     
 }
