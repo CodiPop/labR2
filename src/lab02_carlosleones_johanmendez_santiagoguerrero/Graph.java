@@ -41,6 +41,11 @@ public class Graph {
         brain.setResizable(false);
         brain.setVisible(true);
         JOptionPane.showMessageDialog(brain, "Bienvenido a NEUROGRAPH");
+        /*
+        Imagen del cerebro extraida de :
+        https://obssr.od.nih.gov/wp-content/uploads/2016/06/person-brain-final-image.jpg
+        */
     }
+    
     
 }
