@@ -244,56 +244,67 @@ public class Brain extends javax.swing.JFrame {
                                                                 if ((x <= neuron.getX() && y <= neuron.getY() && ((x+32) >= neuron.getX() && (x+32) <= neuron.getX()+32) && ((y+32) >= neuron.getY() && (y+32) <= neuron.getY()+32))) {
                                                                     match = 1;
                                                                     interfaz.setText("Dos neuronas colisionan su área desde la superior de la diagonal de una de estas");
+                                                                    JOptionPane.showMessageDialog(null, "Dos neuronas colisionan su área desde la superior de la diagonal de una de estas");
                                                                     break;
                                                                 }                  
                                                             } else {
                                                                 match  = 1;
                                                                 interfaz.setText("Dos neuronas intentan colisionar su área desde arriba");
+                                                                JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar su área desde arriba");
                                                                 break;
                                                             }
                                                         } else {
                                                             match = 1;
                                                             interfaz.setText("Dos neuronas intentan colisionar su área desde la izquierda");
+                                                            JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar su área desde la izquierda");
                                                             break;
                                                         }
                                                     } else {
                                                         match = 1;
                                                         interfaz.setText("Dos neuronas intentan colisionar su borde derecho e izquierdo");
+                                                        JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar su borde derecho e izquierdo");
                                                         break;
                                                     }
                                                 } else {
                                                     match = 1;
                                                     interfaz.setText("Dos neuronas intentan colisionar su borde inferior y superior");
+                                                    JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar su borde inferior y superior");
                                                     break;
                                                 }
                                             } else {
                                                 match = 1;
                                                 interfaz.setText("Dos neuronas intentan colisionar dentro del radio de una de éstas");
+                                                JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar dentro del radio de una de éstas");
                                                 break;
                                             }
                                         } else {
                                             match = 1;
                                             interfaz.setText("Dos neuronas intentan colisionar en el borde inferior");
+                                            JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar en el borde inferior");
                                             break;
                                         }
                                     } else {
                                         match = 1;
                                         interfaz.setText("Dos neuronas intentan colisionar en el borde derecho");
+                                        JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar en el borde derecho");
                                         break;
                                     }
                                 } else {
                                     match = 1;
                                     interfaz.setText("Dos neuronas intentan colisionar en el borde izquierdo");
+                                    JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar en el borde izquierdo");
                                     break;
                                 }
                             } else {
                                 match = 1;
                                 interfaz.setText("Dos neuronas intentan colisionar en el borde superior");
+                                JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar en el borde superior");
                                 break;
                             }
                         } else {
                             match = 1;
                             interfaz.setText("Dos neuronas intentan colisionar en la misma coordenada de inicio");
+                            JOptionPane.showMessageDialog(null, "Dos neuronas intentan colisionar en la misma coordenada de inicio");
                             break;
                         }
                     }
