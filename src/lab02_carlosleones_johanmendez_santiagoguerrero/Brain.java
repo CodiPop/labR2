@@ -445,6 +445,7 @@ public class Brain extends javax.swing.JFrame {
                                         }
                                     } else {
                                         interfaz.setText("Esa neurona no es un punto de partida al no conectar con otras");
+                                        JOptionPane.showMessageDialog(rootPane, "Esa neurona no es un punto de partida al no conectar con otras");
                                     }                                    
                                     this.g.setColor(Color.white);
                                     this.g.fillOval(neuronaAnterior.getX(), neuronaAnterior.getY(), 32, 32);
